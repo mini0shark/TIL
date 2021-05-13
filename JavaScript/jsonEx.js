@@ -107,9 +107,3 @@ console.log(humanJson);
 
 // { name: '홍길동', body: { height: 173, weight: 66 }, age: 23 }
 // {"name":"홍길동","body":{"height":173,"weight":66},"age":23}
-
-
-
-
-
-=
