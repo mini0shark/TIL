@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+</head>
+<body>
+    <div class = "container">
+        <div>추가 : <input type="text" id="name"/></div>
+        <div>지역 : 
+            <select id="city" onchange="changeCity();">
+                <option value="02">서울</option>
+                <option value="064">제주</option>
+            </select>
+        </div>
+        <div>동네 : 
+            <select id="region_02">
+                <option value="gangnam">강남</option>
+                <option value="seocho">서초</option>
+            </select>
+            <select id="region_064" style="display:none;">
+                <option value="seoguipo">서귀포</option>
+                <option value="jeju">제주시</option>
+            </select>
+        </div>
+        <div><button type="button" onClick="register();">등록</button></div>
+    </div>
+    <script>
+        function register(){
+            let additionName = document.getElementById("name").value;
+            let city = document.getElementById("city");
+            let add = document.createElement("option");
+            add.value = additionName;
+            add.text ="엥?";
+            console.log("addition", additionName);
+            console.log("city", city);
+            console.log("add", add);
+            add.value = additionName;
+            city.appendChild(add);
+        }
+        function changeCity(){
+            document.getElementById("region_02").style.display="none";
+            document.getElementById("region_064").style.display="none";
+            let city = document.getElementById("city").value;
+            let target = document.getElementById("region_"+city);
+            target.style.display="";
+        }
+    </script>
+</body>
+</html>
