@@ -44,3 +44,4 @@ const title = document.querySelector("title");
 // 6. x:visited
 
 // 7. x[title] title 속성이 있는 앵커 태그만
+document.getElementsBy

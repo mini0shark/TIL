@@ -58,9 +58,19 @@ function loadToDos(){
         });
     }
 }
+function ex(){
+    const removeList = []
+    const childList = toDoList.childNodes
+    childList.forEach(function(element){
+        removeList.push(element);
+    });
+    removeList.forEach(function(e){
+        toDoList.removeChild(e);
+    })
+}
 function init(){
     loadToDos();
+    //ex();
     toDoForm.addEventListener("submit", handleSubmit);
 }
-
 init();

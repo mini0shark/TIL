@@ -1,0 +1,18 @@
+public class IncludeRelation{
+
+}
+
+class Circle{
+    // int x, int y;
+    Point p;
+    int r;
+}
+class Point{
+    int x, int y;
+}
+
+class Car{
+    Engine e;
+    Door[] door;
+    Wheel[] wheel;
+}
