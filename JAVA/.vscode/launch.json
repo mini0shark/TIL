@@ -1,0 +1,98 @@
+{
+    // IntelliSense를 사용하여 가능한 특성에 대해 알아보세요.
+    // 기존 특성에 대한 설명을 보려면 가리킵니다.
+    // 자세한 내용을 보려면 https://go.microsoft.com/fwlink/?linkid=830387을(를) 방문하세요.
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ObserberTest",
+            "request": "launch",
+            "mainClass": "ObserberTest",
+            "projectName": "JAVA_a8ca4db3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObserberTest",
+            "request": "launch",
+            "mainClass": "chapter7_ObjectOriented.ObserberTest",
+            "projectName": "JAVA_a8ca4db3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Blog",
+            "request": "launch",
+            "mainClass": "chapter1to5.Blog",
+            "projectName": "JAVA_a8ca4db3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CarTest",
+            "request": "launch",
+            "mainClass": "chapter1to5.CarTest",
+            "projectName": "JAVA_a8ca4db3"
+        },
+        {
+            "type": "java",
+            "name": "Launch IntegerTest",
+            "request": "launch",
+            "mainClass": "chapter1to5.IntegerTest",
+            "projectName": "JAVA_a8ca4db3"
+        },
+        {
+            "type": "java",
+            "name": "Launch AreaTest",
+            "request": "launch",
+            "mainClass": "chapter6_ObjectOriented.AreaTest",
+            "projectName": "JAVA_a8ca4db3"
+        },
+        {
+            "type": "java",
+            "name": "Launch CarTest(1)",
+            "request": "launch",
+            "mainClass": "chapter6_ObjectOriented.CarTest",
+            "projectName": "JAVA_a8ca4db3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConstructorTest",
+            "request": "launch",
+            "mainClass": "chapter6_ObjectOriented.ConstructorTest",
+            "projectName": "JAVA_a8ca4db3"
+        },
+        {
+            "type": "java",
+            "name": "Launch InstanceTest",
+            "request": "launch",
+            "mainClass": "chapter6_ObjectOriented.InstanceTest",
+            "projectName": "JAVA_a8ca4db3"
+        },
+        {
+            "type": "java",
+            "name": "Launch MyMathTest",
+            "request": "launch",
+            "mainClass": "chapter6_ObjectOriented.MyMathTest",
+            "projectName": "JAVA_a8ca4db3"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test",
+            "request": "launch",
+            "mainClass": "chapter6_ObjectOriented.Test",
+            "projectName": "JAVA_a8ca4db3"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValTest",
+            "request": "launch",
+            "mainClass": "chapter6_ObjectOriented.ValTest",
+            "projectName": "JAVA_a8ca4db3"
+        }
+    ]
+}
